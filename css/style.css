@@ -8,12 +8,14 @@
 }
 
 .portfolio-items {
-
 }
-
+.itemrow {
+  border: 1px solid #000;
+ }
 .item {
-  max-width: 33%;
+  max-width: 33.33333%;
   padding: 0;
+  border-right: 1px solid #000;
 }
 
 @media screen and (max-width: 991px){
