@@ -22,8 +22,8 @@
     <![endif]-->
   </head>
 
-  <body>
-    <nav class="navbar navbar-default">
+  <body id='home' data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -39,9 +39,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Portfolio<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a class="smooth-scroll" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a></li>
+            <li><a class="smooth-scroll" href="#about">About</a></li>
+            <li><a class="smooth-scroll" href="#contact">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-static-top navbar-right">
             <li><a href="https://www.linkedin.com/in/stephen-a-barry-a6541b120"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -52,63 +52,172 @@
       </div><!-- /.container-fluid -->
     </nav><!-- END NAV BAR -->
 
-    <div class="container portfolio-items">
-      <div class="row itemrow">
-        <div class="col-sm-4 item">
-          <a href="">
-            <img class="img-responsive" src="img/restaurante-home.jpg" alt="Restaurante Website Link">
-          </a>
-        </div><!-- END ITEM -->
-        <div class="col-sm-4 item">
-          <a href="">
+    <div id='portfolio' class="container portfolio-items">
+      <div class="row header firstitem">
+        <h1>
+          Portfolio
+        </h1>
+      </div>
+
+      <hr>
+
+      <a href="">
+        <div class="row itemrow firstitem">
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/restaurante-home.jpg" alt="Restaurante Website Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
             <img class="img-responsive" src="img/restaurante-2.jpg" alt="Restaurante Website Link">
-          </a>
-        </div><!-- END ITEM -->
-        <div class="col-sm-4 item">
-          <a href="">
-            <img class="img-responsive" src="img/restaurante-3.jpg" alt="Restaurante Website Link">
-          </a>
-        </div><!-- END ITEM -->
-      </div><!-- END ROW -->
-      <div class="row itemrow">
-        <div class="col-sm-4 item">
-          <a href="">
-            <img class="img-responsive" src="img/pet-store-home.jpg" alt="Pet Store Website Link">
-          </a>
-        </div><!-- END ITEM -->
-        <div class="col-sm-4 item">
-          <a href="">
-            <img class="img-responsive" src="img/pet-store-products.jpg" alt="Pet Store Website Link">
-          </a>
-        </div><!-- END ITEM -->
-        <div class="col-sm-4 item">
-          <a href="">
-            <img class="img-responsive" src="img/pet-store-contacts.jpg" alt="Pet Store Website Link">
-          </a>
-        </div><!-- END ITEM -->
-      </div><!-- END ROW -->
-      <div class="row itemrow">
-        <div class="col-sm-4 item">
-          <a href="">
-            <img class="img-responsive" src="img/javascript-labyrinth.jpg" alt="Javascript Labyrinth Link">
-          </a>
-        </div><!-- END ITEM -->
-        <div class="col-sm-4 item">
-          <a href="">
-            <img class="img-responsive" src="img/javascript-labyrinth-2.jpg" alt="Javascript Labyrinth Link">
-          </a>
-        </div><!-- END ITEM -->
-        <div class="col-sm-4 item">
-          <a href="">
-            <img class="img-responsive" src="img/javascript-labyrinth-3.jpg" alt="Javascript Labyrinth Link">
-          </a>
-        </div><!-- END ITEM -->
-      </div><!-- END ROW -->
-    </div><!-- END CONTAINER ->
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/restaurante-3.jpg" alt="Restaurante Website Link">
+          </div><!-- END ITEM -->
+        </div><!-- END ROW -->
+      </a>
+      <a href="">
+        <div class="row itemrow">
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/pet-store-home.jpg" alt="Pet Store Website Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/pet-store-products.jpg" alt="Pet Store Website Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/pet-store-contacts.jpg" alt="Pet Store Website Link">
+          </div><!-- END ITEM -->
+        </div><!-- END ROW -->
+      </a>
+      <a href="">
+        <div class="row itemrow">
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/javascript-labyrinth.jpg" alt="Javascript Labyrinth Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/javascript-labyrinth-2.jpg" alt="Javascript Labyrinth Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/javascript-labyrinth-3.jpg" alt="Javascript Labyrinth Link">
+          </div><!-- END ITEM -->
+        </div><!-- END ROW -->
+      </a>
+    </div><!-- END CONTAINER -->
+
+    <div id='about' class="container about">
+      <div class="row header2">
+        <h1>
+          About
+        </h1>
+      </div>
+
+      <hr>
+
+      <div class="row photoinfo">
+        <div class="col-sm-4 photo">
+          <img class="center-block img-responsive" src="img/stephen_barry.jpg" alt="Photo of Stephen A Barry">
+        </div>
+        <div class="col-sm-8 info">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+      </div>
+    </div><!-- END ABOUT SECTION -->
+
+    <div id="contact" class="container contact">
+      <div class="row header2">
+        <h1>
+          Contact
+        </h1>
+      </div>
+
+      <hr>
+
+    <div class="row">
+      <div class="col-sm-3 contactitem">
+        <div class="row text-center">Email</div>
+        <div class="row">&nbsp</div>
+        <div class="row text-center">
+          <a href="mailto:stephen.a.barry@outlook.com">stephen.a.barry@outlook.com</a>
+        </div>
+        <div class="row">&nbsp</div>
+      </div><!-- END CONTACT ITEM -->
+      <div class="col-sm-3 contactitem">
+        <div class="row text-center">LinkedIn</div>
+        <div class="row">&nbsp</div>
+        <div class="row text-center">
+          <a href="https://www.linkedin.com/in/stephen-a-barry-a6541b120">stephen-a-barry</a>
+        </div>
+        <div class="row">&nbsp</div>
+      </div><!-- END CONTACT ITEM -->
+      <div class="col-sm-3 contactitem">
+        <div class="row text-center">Github</div>
+        <div class="row">&nbsp</div>
+        <div class="row text-center">
+          <a href"https://github.com/stephen-a-barry">github.com/stephen-a-barry</a>
+        </div>
+        <div class="row">&nbsp</div>
+      </div><!-- END CONTACT ITEM -->
+      <div class="col-sm-3 contactitem">
+        <div class="row text-center">Twitter</div>
+        <div class="row">&nbsp</div>
+        <div class="row text-center">
+          <a href="https://twitter.com/StephenABarry">@StephenABarry</a></div>
+        <div class="row">&nbsp</div>
+      </div><!-- END CONTACT ITEM -->
+
+    </div>
+
+    </div><!-- END CONTACT SECTION -->
+
+    <hr>
+
+    <footer><!-- START FOOTER -->
+  		<div class="row"><!-- START ROW -->
+  			<div class="col-sm-3 brand">
+  				<a href="#">Stephen A. Barry</a>
+  			</div>
+  			<div class="col-sm-3">
+
+  			</div>
+  			<div class="col-sm-6">
+
+  			</div>
+  		</div><!-- END ROW -->
+  	</footer><!-- END FOOTER -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if( $(this).attr("class")=="smooth-scroll") {
+              if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                      var target = $(this.hash);
+                      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                      if (target.length) {
+                              $('html,body').animate({
+                                      scrollTop: target.offset().top
+                              }, 1000);
+                              return false;
+                      }
+                  }
+              }
+          });
+      });
+    </script>
   </body>
 </html>
