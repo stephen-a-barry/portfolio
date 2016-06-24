@@ -55,6 +55,23 @@ hr {
 
 .firstitem {
   opacity: 1;
+  position: relative;
+  color: transparent;
+  font-size: 26px;
+}
+
+.seconditem {
+  opacity: 1;
+  position: relative;
+  color: transparent;
+  font-size: 26px;
+}
+
+.thirditem {
+  opacity: 1;
+  position: relative;
+  color: transparent;
+  font-size: 26px;
 }
 
 .item {
