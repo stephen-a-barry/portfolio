@@ -9,23 +9,31 @@
 }
 
 .navbar-brand {
-  padding-right: 120px;
+  padding-right: 70px;
   font-size: 24px;
 }
+
+.navbar-default .navbar-brand {
+  color: #222 !important;
+}
+
 
 .navbar a {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .header {
   text-align: center;
-  color: #888;
+  color: #444;
   margin-top: 75px;
 }
 
 .header2 {
   text-align: center;
-  color: #888;
+  color: #444;
   margin-top: 75px;
 }
 
@@ -37,15 +45,15 @@ hr {
 
 .itemrow {
   border: 1px solid #000;
-  opacity: .6;
+  opacity: 1;
   position: relative;
  }
 
 .itemrow:hover {
-  opacity: 1;
+  opacity: .6;
 }
 
-.firstitem:hover {
+.firstitem {
   opacity: 1;
 }
 
@@ -56,35 +64,60 @@ hr {
   background-color: black;
 }
 
-.photo {
-
-}
-
-.photoinfo:hover p {
-  color: #000;
-}
-
-.photoinfo:hover img {
-  opacity: 1;
-}
-
 .about img {
   max-width: 33%;
   border: 2px solid #444;
-  opacity: .8;
+  opacity: 1;
+}
+
+.about h4 {
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about a:hover {
+  color: #555;
 }
 
 .about p {
-  color: #555;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .contactitem {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.contactitem a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contactitem a:hover {
+  color: #000;
+  cursor: pointer;
+}
+
 footer {
-  padding: 50px;
+  padding: 25px;
   background-color: #aaa;
+}
+
+footer a,
+footer a:focus {
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #000;
 }
 
 footer .brand {
@@ -95,15 +128,14 @@ footer .row {
   margin: 0;
 }
 
-@media screen and (max-width: 991px){
-
+@media screen and (max-width : 769px) {
+  .navbar-brand {
+    padding-right: 150px;
+    font-size: 24px;
+  }
 }
 
-@media screen and (max-width : 767px) {
-
-}
-
-@media screen and (max-width: 479px){
+@media screen and (max-width: 481px){
   .navbar-brand {
     padding-right: 0px;
   }
@@ -115,24 +147,4 @@ footer .row {
     opacity: 1;
     position: relative;
    }
-}
-
-@media screen and (max-width: 434px){
-
-}
-
-@media screen and (max-width: 413px){
-
-}
-
-@media screen and (max-width : 374px) {
-
-}
-
-@media screen and (max-width: 359px){
-
-}
-
-@media screen and (max-width: 319px){
-
 }
