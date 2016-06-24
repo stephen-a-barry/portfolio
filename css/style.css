@@ -56,22 +56,32 @@ hr {
 .firstitem {
   opacity: 1;
   position: relative;
-  color: transparent;
-  font-size: 26px;
+  color: #000;
+  font-size: 130px;
+  text-align: center;
 }
-
+.firstitem .project-description {
+  position: absolute;
+  opacity: 0;
+  background-color: white;
+  min-height: 100%;
+  min-width: 100%;
+}
+.firstitem .project-description:hover {
+  opacity: 0.8;
+}
 .seconditem {
   opacity: 1;
   position: relative;
-  color: transparent;
-  font-size: 26px;
+  color: #000;
+  font-size: 130px;
 }
 
 .thirditem {
   opacity: 1;
   position: relative;
-  color: transparent;
-  font-size: 26px;
+  color: #000;
+  font-size: 130px;
 }
 
 .item {
