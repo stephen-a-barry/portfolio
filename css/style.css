@@ -1,15 +1,167 @@
+.navbar-default {
+    background: #fff;;
+    border-color: #bbb;
+    min-height:32px !important;
+}
+
+.navbar-default .navbar-nav > li >a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand {
+  padding-right: 70px;
+  font-size: 24px;
+}
+
+.navbar-default .navbar-brand {
+  color: #222 !important;
+}
+
+
+.navbar a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 h1 {
-  color: blue;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.header {
+  text-align: center;
+  color: #444;
+  margin-top: 75px;
 }
 
-@media screen and (max-width : 768px) {
-  h1{
-    color: green;
+.header2 {
+  text-align: center;
+  color: #444;
+  margin-top: 75px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 30px;
+  border-color: #bbb;
+}
+
+.itemrow {
+  border: 1px solid #000;
+  opacity: 1;
+  position: relative;
+ }
+
+.itemrow:hover {
+  opacity: .6;
+}
+
+.firstitem {
+  opacity: 1;
+  position: relative;
+  color: transparent;
+  font-size: 26px;
+}
+
+.seconditem {
+  opacity: 1;
+  position: relative;
+  color: transparent;
+  font-size: 26px;
+}
+
+.thirditem {
+  opacity: 1;
+  position: relative;
+  color: transparent;
+  font-size: 26px;
+}
+
+.item {
+  max-width: 33.33333%;
+  padding: 0;
+  border-right: 1px solid #000;
+  background-color: black;
+}
+
+.about img {
+  max-width: 33%;
+  border: 2px solid #444;
+  opacity: 1;
+}
+
+.about h4 {
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about a:hover {
+  color: #555;
+}
+
+.about p {
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contactitem {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contactitem a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contactitem a:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+footer {
+  padding: 25px;
+  background-color: #aaa;
+}
+
+footer a,
+footer a:focus {
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+footer .brand {
+  font-size: 24px;
+  text-align: center;
+}
+footer .row {
+  margin: 0;
+}
+
+@media screen and (max-width : 769px) {
+  .navbar-brand {
+    padding-right: 150px;
+    font-size: 24px;
   }
 }
 
-@media screen and (max-width : 375px) {
-  h1{
-    color: red;
+@media screen and (max-width: 481px){
+  .navbar-brand {
+    padding-right: 0px;
   }
+  .item {
+    max-width: 100%;
+  }
+  .itemrow {
+    border: 1px solid #000;
+    opacity: 1;
+    position: relative;
+   }
 }

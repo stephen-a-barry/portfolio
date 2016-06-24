@@ -3,18 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="user-scalable=no width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Stephen A. Barry</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     	<link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet">
     <!-- GOOGLE FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,12 +21,176 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+
+  <body id='home' data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Stephen A. Barry</a>
+        </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a class="smooth-scroll" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a></li>
+            <li><a class="smooth-scroll" href="#about">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-static-top navbar-right">
+            <li><a href="https://www.linkedin.com/in/stephen-a-barry-a6541b120"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/stephen-a-barry"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/StephenABarry"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav><!-- END NAV BAR -->
+
+    <div id='portfolio' class="container portfolio-items">
+      <div class="row header">
+        <h1>
+          Portfolio
+        </h1>
+      </div>
+
+      <hr>
+      <a href="http://stephen-a-barry.github.io/restaurante">
+        <div class="row itemrow firstitem">
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/restaurante-home.jpg" alt="Restaurante Website Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+            <img class="img-responsive" src="img/restaurante-2.jpg" alt="Restaurante Website Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/restaurante-3.jpg" alt="Restaurante Website Link">
+          </div><!-- END ITEM -->
+        </div><!-- END ROW -->
+      </a>
+      <a href="http://geekwiseb2.github.io/pet-store-stephen-andrew-barry/">
+        <div class="row itemrow seconditem">
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/pet-store-home.jpg" alt="Pet Store Website Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/pet-store-products.jpg" alt="Pet Store Website Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/pet-store-contacts.jpg" alt="Pet Store Website Link">
+          </div><!-- END ITEM -->
+        </div><!-- END ROW -->
+      </a>
+      <a href="http://stephen-a-barry.github.io/javascript-labyrinth/">
+        <div class="row itemrow thirditem">
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/javascript-labyrinth.jpg" alt="Javascript Labyrinth Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/javascript-labyrinth-2.jpg" alt="Javascript Labyrinth Link">
+          </div><!-- END ITEM -->
+          <div class="col-sm-4 item">
+              <img class="img-responsive" src="img/javascript-labyrinth-3.jpg" alt="Javascript Labyrinth Link">
+          </div><!-- END ITEM -->
+        </div><!-- END ROW -->
+      </a>
+    </div><!-- END CONTAINER -->
+
+    <div id='about' class="container about">
+      <div class="row header2">
+        <h1>
+          About
+        </h1>
+      </div>
+
+      <hr>
+
+      <div class="row photoinfo">
+        <div class="col-sm-4 photo">
+          <img class="center-block img-responsive" src="img/stephen_barry.jpg" alt="Photo of Stephen A Barry">
+          <h4 class="text-center">Stephen A. Barry</h4>
+          <p class="text-center"><a href="mailto:stephen.a.barry@outlook.com">stephen.a.barry@outlook.com</a></p>
+        </div>
+        <div class="col-sm-8 info">
+          <p class="text-justify">
+            I am an aspiring web developer, currently taking classes at Geekwise Academy in Fresno, California.  To this point, I have a good base of HTML, CSS, JavaScript, and Responsive Web Design, with some experience with Git, Photoshop, Illustrator, GIMP, Inkscape, and C++.  I am currently enrolled in an Angular JS class.
+          </p>
+          <p class="text-justify">
+            It has been a circuitous road back to coding, which started by programming games into my TI-81 and TI-85 graphing calculators during high school.  After many educational detours: from zoology to business to fine art to english to spanish; after many career detours: from being a janitor to a combat medic to a hospice worker to a furnace operator; and after many personal project detours: from inventing a smoking cessation device, to creating a line of bumper stickers, to developing a mathematical algorithm to inaccurately predict the outcomes of every game during March Madness, I have returned to one of my first passions, simply programming.
+          </p>
+          <p class="text-justify">
+            Where to go from here?  I'm looking to work in the industry.  I desire to spend many hours per week coding, developing websites, refining my skills, and learning new skills while getting paid a reasonable salary to do it.  I am looking to love what I do, be good at what I do, and get paid well for what I do.  And maybe one day, I'll be able to use my skills to accurately fill out my bracket come March.
+          </p>
+        </div>
+      </div>
+    </div><!-- END ABOUT SECTION -->
+
+    <div id="contact" class="container contact">
+      <div class="row header2">
+      </div>
+
+    <div class="row">
+    </div>
+    </div><!-- END CONTACT SECTION -->
+
+    <footer><!-- START FOOTER -->
+  		<div class="row"><!-- START ROW -->
+        <div class="col-sm-3 contactitem">
+          <div class="row text-center"> LinkedIn</div>
+          <div class="row text-center">
+            <a href="https://www.linkedin.com/in/stephen-a-barry-a6541b120">linkedin.com/stephen-a-barry
+  </a>
+          </div>
+          <div class="row">&nbsp</div>
+        </div><!-- END CONTACT ITEM -->
+        <div class="col-sm-3 contactitem">
+          <div class="row text-center"> Github</div>
+          <div class="row text-center">
+            <a href"https://github.com/stephen-a-barry">github.com/stephen-a-barry</a>
+          </div>
+          <div class="row">&nbsp</div>
+        </div><!-- END CONTACT ITEM -->
+        <div class="col-sm-3 contactitem">
+          <div class="row text-center"> Twitter</div>
+          <div class="row text-center">
+            <a href="https://twitter.com/StephenABarry">@StephenABarry</a></div>
+          <div class="row">&nbsp</div>
+        </div><!-- END CONTACT ITEM -->
+        <div class="col-sm-3 contactitem">
+          <div class="row text-center"> Email</div>
+          <div class="row text-center">
+            <a href="mailto:stephen.a.barry@outlook.com">stephen.a.barry@outlook.com</a></div>
+          <div class="row">&nbsp</div>
+        </div><!-- END CONTACT ITEM -->
+  		</div><!-- END ROW -->
+  	</footer><!-- END FOOTER -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if( $(this).attr("class")=="smooth-scroll") {
+              if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                      var target = $(this.hash);
+                      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                      if (target.length) {
+                              $('html,body').animate({
+                                      scrollTop: target.offset().top
+                              }, 1000);
+                              return false;
+                      }
+                  }
+              }
+          });
+      });
+    </script>
+    <script src="script.js"></script>
   </body>
 </html>
