@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="user-scalable=no width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Stephen A. Barry</title>
 
     <!-- Bootstrap -->
@@ -22,7 +21,7 @@
     <![endif]-->
   </head>
 
-  <body id='home' data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+  <body id="home" data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -33,7 +32,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Stephen A. Barry</a>
+          <a class="navbar-brand smooth-scroll" href="#home">Stephen A. Barry</a>
         </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,6 +40,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a class="smooth-scroll" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a></li>
             <li><a class="smooth-scroll" href="#about">About</a></li>
+            <li><a class="smooth-scroll" href="#contact">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-static-top navbar-right">
             <li><a href="https://www.linkedin.com/in/stephen-a-barry-a6541b120"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -59,45 +59,49 @@
       </div>
 
       <hr>
-      <a href="http://stephen-a-barry.github.io/restaurante">
-        <div class="row itemrow firstitem">
-          <div class="col-sm-4 item">
-              <img class="img-responsive" src="img/restaurante-home.jpg" alt="Restaurante Website Link">
-          </div><!-- END ITEM -->
-          <div class="col-sm-4 item">
-            <img class="img-responsive" src="img/restaurante-2.jpg" alt="Restaurante Website Link">
-          </div><!-- END ITEM -->
-          <div class="col-sm-4 item">
-              <img class="img-responsive" src="img/restaurante-3.jpg" alt="Restaurante Website Link">
-          </div><!-- END ITEM -->
-        </div><!-- END ROW -->
-      </a>
-      <a href="http://geekwiseb2.github.io/pet-store-stephen-andrew-barry/">
-        <div class="row itemrow seconditem">
-          <div class="col-sm-4 item">
-              <img class="img-responsive" src="img/pet-store-home.jpg" alt="Pet Store Website Link">
-          </div><!-- END ITEM -->
-          <div class="col-sm-4 item">
-              <img class="img-responsive" src="img/pet-store-products.jpg" alt="Pet Store Website Link">
-          </div><!-- END ITEM -->
-          <div class="col-sm-4 item">
-              <img class="img-responsive" src="img/pet-store-contacts.jpg" alt="Pet Store Website Link">
-          </div><!-- END ITEM -->
-        </div><!-- END ROW -->
-      </a>
-      <a href="http://stephen-a-barry.github.io/javascript-labyrinth/">
-        <div class="row itemrow thirditem">
-          <div class="col-sm-4 item">
-              <img class="img-responsive" src="img/javascript-labyrinth.jpg" alt="Javascript Labyrinth Link">
-          </div><!-- END ITEM -->
-          <div class="col-sm-4 item">
-              <img class="img-responsive" src="img/javascript-labyrinth-2.jpg" alt="Javascript Labyrinth Link">
-          </div><!-- END ITEM -->
-          <div class="col-sm-4 item">
-              <img class="img-responsive" src="img/javascript-labyrinth-3.jpg" alt="Javascript Labyrinth Link">
-          </div><!-- END ITEM -->
-        </div><!-- END ROW -->
-      </a>
+
+      <div class="container portfolio-items-inner">
+        <a href="http://stephen-a-barry.github.io/restaurante">
+          <div class="row itemrow firstitem">
+            <div class="col-xs-12 col-sm-4 item">
+                <img class="img-responsive" src="img/restaurante-home.jpg" alt="Restaurante Website Link">
+            </div><!-- END ITEM -->
+            <div class="col-xs-12 col-sm-4 item">
+              <img class="img-responsive" src="img/restaurante-2.jpg" alt="Restaurante Website Link">
+            </div><!-- END ITEM -->
+            <div class="col-xs-12 col-sm-4 item">
+                <img class="img-responsive" src="img/restaurante-3.jpg" alt="Restaurante Website Link">
+            </div><!-- END ITEM -->
+          </div><!-- END ROW -->
+        </a>
+        <a href="http://geekwiseb2.github.io/pet-store-stephen-andrew-barry/">
+          <div class="row itemrow seconditem">
+            <div class="col-xs-12 col-sm-4 item">
+                <img class="img-responsive" src="img/pet-store-home.jpg" alt="Pet Store Website Link">
+            </div><!-- END ITEM -->
+            <div class="col-xs-12 col-sm-4 item">
+                <img class="img-responsive" src="img/pet-store-products.jpg" alt="Pet Store Website Link">
+            </div><!-- END ITEM -->
+            <div class="col-xs-12 col-sm-4 item">
+                <img class="img-responsive" src="img/pet-store-contacts.jpg" alt="Pet Store Website Link">
+            </div><!-- END ITEM -->
+          </div><!-- END ROW -->
+        </a>
+        <a href="http://stephen-a-barry.github.io/javascript-labyrinth/">
+          <div class="row itemrow thirditem">
+            <div class="col-xs-12 col-sm-4 item">
+                <img class="img-responsive" src="img/javascript-labyrinth.jpg" alt="Javascript Labyrinth Link">
+            </div><!-- END ITEM -->
+            <div class="col-xs-12 col-sm-4 item">
+                <img class="img-responsive" src="img/javascript-labyrinth-2.jpg" alt="Javascript Labyrinth Link">
+            </div><!-- END ITEM -->
+            <div class="col-xs-12 col-sm-4 item">
+                <img class="img-responsive" src="img/javascript-labyrinth-3.jpg" alt="Javascript Labyrinth Link">
+            </div><!-- END ITEM -->
+          </div><!-- END ROW -->
+        </a>
+      </div>
+
     </div><!-- END CONTAINER -->
 
     <div id='about' class="container about">
@@ -110,14 +114,14 @@
       <hr>
 
       <div class="row photoinfo">
-        <div class="col-sm-4 photo">
-          <img class="center-block img-responsive" src="img/stephen_barry.jpg" alt="Photo of Stephen A Barry">
+        <div class="col-xs-12 col-sm-4 photo">
+          <img class="center-block img-responsive" src="img/stephen_a_barry.jpg" alt="Photo of Stephen A Barry">
           <h4 class="text-center">Stephen A. Barry</h4>
           <p class="text-center"><a href="mailto:stephen.a.barry@outlook.com">stephen.a.barry@outlook.com</a></p>
         </div>
-        <div class="col-sm-8 info">
+        <div class="col-xs-12 col-sm-7 info">
           <p class="text-justify">
-            I am a junior web developer. I have a good base in HTML, CSS, JavaScript, and Responsive Web Design, with some experience with Git, Photoshop, Illustrator, GIMP, and Inkscape.
+            I am a junior web developer with proficiency in HTML, CSS, JavaScript, Bootstrap, Git, Photoshop, and Illustrator.  I have dabbled in AngularJS, Python, PostgreSQL, Node.js, and MongoDB.
           </p>
           <p class="text-justify">
             I am looking to gain more experience in the industry as a front-end developer, working as part of a team to deliver world class solutions for my potential employer.
@@ -163,33 +167,19 @@
             <a href="mailto:stephen.a.barry@outlook.com">stephen.a.barry@outlook.com</a></div>
           <div class="row">&nbsp</div>
         </div><!-- END CONTACT ITEM -->
+
   		</div><!-- END ROW -->
+      <div class="row">
+        <h1>
+          Contact Information
+        </h1>
+      </div>
   	</footer><!-- END FOOTER -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script>
-      $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-            if( $(this).attr("class")=="smooth-scroll") {
-              if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                      var target = $(this.hash);
-                      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                      if (target.length) {
-                              $('html,body').animate({
-                                      scrollTop: target.offset().top
-                              }, 1000);
-                              return false;
-                      }
-                  }
-              }
-          });
-      });
-    </script>
-    <!-- <script src="script.js">
-
-    </script> -->
+    <script src="js/script.js"></script>
   </body>
 </html>
