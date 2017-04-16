@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+a:link {
+  text-decoration:none;
+}
 body {
   background-color: #111;
 }
@@ -14,6 +17,10 @@ footer h1 {
   color: #fff;
   text-align: center;
   margin-top: 75px;
+}
+footer p {
+  color: #fff;
+  text-align: center;
 }
 footer a,
 footer a:focus {
@@ -77,6 +84,9 @@ hr {
   color: #fff;
   cursor: pointer;
 }
+.email-arrow {
+  margin-top: 60px;
+}
 .header {
   text-align: center;
   color: #fff;
@@ -92,14 +102,38 @@ hr {
   padding: 2px;
   border: 1px solid #111;
   background-color: #000;
+  position: relative;
 }
 .item-one {
-  opacity: 1;
+  opacity: .8;
   position: relative;
   color: #000;
   font-size: 130px;
   text-align: center;
   border-right: 0 !important;
+}
+.item-description {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  background-color: #111;
+  margin: 0;
+  margin-top: 185px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+}
+.item-title {
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+  background-color: #111;
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
 }
 .item-one .project-description {
   position: absolute;
@@ -112,21 +146,20 @@ hr {
   opacity: 0.8;
 }
 .item-two {
-  opacity: 1;
+  opacity: .8;
   position: relative;
   color: #000;
   font-size: 130px;
   border-right: 0 !important;
 }
 .item-three {
-  opacity: 1;
+  opacity: .8;
   position: relative;
   color: #000;
   font-size: 130px;
   border-right: 0 !important;
 }
 .itemrow {
-  opacity: 1;
   position: relative;
   max-width: 100%;
   margin: 0;
