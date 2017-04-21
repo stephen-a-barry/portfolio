@@ -50,7 +50,7 @@ hr {
   margin-top: 50px;
 }
 .about img {
-  max-width: 33%;
+  height: 177px;
   border: 1px solid #fff;
   opacity: 1;
   padding: 2px;
@@ -100,6 +100,7 @@ hr {
 .info {
   border: 1px solid #fff;
   padding: 15px;
+  background-color: #000;
 }
 .item {
   max-width: 33.33333%;
@@ -119,7 +120,7 @@ hr {
   height: 75px;
   width: 100%;
   padding: 15px;
-  background-color: #111;
+  background-color: #000;
   margin: 0;
   margin-top: 185px;
   color: #fff;
