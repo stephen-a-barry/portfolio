@@ -97,6 +97,10 @@ hr {
   color: #fff;
   margin-top: 75px;
 }
+.info {
+  border: 1px solid #fff;
+  padding: 15px;
+}
 .item {
   max-width: 33.33333%;
   padding: 2px;
@@ -110,10 +114,9 @@ hr {
   color: #000;
   font-size: 130px;
   text-align: center;
-  border-right: 0 !important;
 }
 .item-description {
-  height: 50px;
+  height: 75px;
   width: 100%;
   padding: 15px;
   background-color: #111;
@@ -150,14 +153,12 @@ hr {
   position: relative;
   color: #000;
   font-size: 130px;
-  border-right: 0 !important;
 }
 .item-three {
   opacity: .8;
   position: relative;
   color: #000;
   font-size: 130px;
-  border-right: 0 !important;
 }
 .itemrow {
   position: relative;
