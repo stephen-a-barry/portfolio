@@ -16,19 +16,16 @@ $(function() {
     });
 });
 
-// Portfolio Items--- title and description
+// Portfolio Items--- description
 var items = [
   {
-    title: 'Restaurante',
-    description: 'Technologies Used: HTML, CSS, Bootstrap, JavaScript',
+    description: 'Restaurante | Class Project<br>Technologies Used: HTML, CSS, Bootstrap, JavaScript, Photoshop',
   },
   {
-    title: 'Pet Store',
-    description: 'Technologies Used: HTML, CSS, Bootstrap, JavaScript'
+    description: 'Pet Store | Class Project<br>Technologies Used: HTML, CSS, Bootstrap, JavaScript, Photoshop'
   },
   {
-    title: 'Javascript Labyrinth',
-    description: 'Technologies Used: HTML, JavaScript'
+    description: 'Javascript Labyrinth | Class Project<br>Technologies Used: HTML, JavaScript'
   }
 ]
 
@@ -36,14 +33,14 @@ var items = [
 $('.itemrow').each(function(index) {
   let ourIndex = index;
   $(this).mouseenter(function() {
-    let title = '<div class="row item-title">' + items[ourIndex].title + '</div>'
     let description = '<div class="row item-description">' + items[ourIndex].description + '</div>';
-    $(this).prepend(title);
     $(this).append(description);
     $(this).css('opacity','1');
+    $(this).css('border', '1px solid #fff');
   }).mouseleave(function() {
     $('.item-title').remove();
     $('.item-description').remove();
     $(this).css('opacity','.8');
+    $(this).css('border', 'none');
   });
 });
