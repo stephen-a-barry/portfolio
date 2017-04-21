@@ -20,15 +20,15 @@ $(function() {
 var items = [
   {
     title: 'Restaurante',
-    description: 'Hi There'
+    description: 'Technologies Used: HTML, CSS, Bootstrap, JavaScript',
   },
   {
     title: 'Pet Store',
-    description: 'Howdy'
+    description: 'Technologies Used: HTML, CSS, Bootstrap, JavaScript'
   },
   {
     title: 'Javascript Labyrinth',
-    description: 'Hola'
+    description: 'Technologies Used: HTML, JavaScript'
   }
 ]
 
